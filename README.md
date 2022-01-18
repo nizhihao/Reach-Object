@@ -59,12 +59,14 @@ roslaunch ur_gazebo ur5.launch   # run the Gazebo
    rosrun reach_object main.py   # run the agent
    ```
    
-The Introduction of the reach_object(RL) package.
+   The Introduction of the reach_object(RL) package.
    
    ```shell
    main.py   	   # main func
    TD3.py   	 # agent 
-env.py   # environment
+   env.py   # environment
    plot.py		   # plot
-```
+   ```
    
+   
+

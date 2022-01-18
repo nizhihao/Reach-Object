@@ -53,7 +53,7 @@ This implementation requires the following dependencies (tested on Ubuntu 16.04 
 2. If you want to train or test in Gazebo,  You can run the following command line.
 
    ```shell
-roslaunch ur_gazebo ur5.launch   # run the Gazebo
+   roslaunch ur_gazebo ur5.launch   # run the Gazebo
    roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch sim:=true   # run moveit
    roslaunch ur5_moveit_config moveit_rviz.launch config:=true  # run rviz
    rosrun reach_object main.py   # run the agent
